@@ -15,7 +15,7 @@ After swap: 14 7
 */
 #include <stdio.h>
 
-int main(void) {
+int main() {
     int a, b;
 
     printf("Enter two numbers: ");
@@ -29,3 +29,4 @@ int main(void) {
 
     return 0;
 }
+
