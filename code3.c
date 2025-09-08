@@ -16,18 +16,19 @@ Area=21, Perimeter=20
 */
 #include <stdio.h>
 
-int main(void)
+int main()
 
 {
     int l, b;
 
         printf("Length: ");
-        scanf("%i", &l);    
+        scanf("%d", &l);    
 
         printf("Breadth: ");
-        scanf("%i", &b);
+        scanf("%d", &b);
 
-        printf("Area=%i, Perimeter=%i\n", l * b, 2 * (l + b));
+        printf("Area=%d, Perimeter=%d\n", l * b, 2 * (l + b));
  
         return 0;
+
 }
