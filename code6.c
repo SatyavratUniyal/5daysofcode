@@ -15,7 +15,7 @@ After swap: 1 -1
 */
 #include <stdio.h>
 
-int main(void)
+int main()
 
 {
     float x, y, z;
@@ -28,7 +28,8 @@ int main(void)
     y = z;
 
     {
-        printf("After swap: %g %g\n", x, y);
+        printf("After swap: %f %f\n", x, y);
     }
     return 0;
+
 }
