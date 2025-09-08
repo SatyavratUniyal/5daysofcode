@@ -16,14 +16,15 @@ Output 2:
 #include <stdio.h>
 #include <math.h>
 
-int main(void)
+int main()
 
 {
     int s;
 
     printf("Time in Seconds: ");
-    scanf("%i", &s);
+    scanf("%d", &s);
     {
-        printf("%i:%i:%i\n", s / 3600, (s % 3600) / 60, ((s % 3600) % 60));
+        printf("%d:%d:%d\n", s / 3600, (s % 3600) / 60, ((s % 3600) % 60));
     }
+
 }
