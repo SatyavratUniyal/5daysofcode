@@ -16,16 +16,17 @@ Sum=10, Diff=4, Product=21, Quotient=2
 */
 #include <stdio.h>
 
-int main(void)
+int main()
 
 {
     int x;
     int y;
 
     printf("Input: ");
-    scanf("%i %i", &x, &y);
+    scanf("%d %d", &x, &y);
     {
-        printf("Sum=%i, Diff=%i, Product=%i, Quotient=%i\n", x + y, x - y, x * y, x / y);
+        printf("Sum=%d, Diff=%d, Product=%d, Quotient=%d\n", x + y, x - y, x * y, x / y);
     }
     return 0;
+
 }
