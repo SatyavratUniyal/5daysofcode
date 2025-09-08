@@ -16,7 +16,7 @@ Sum = 19
 
 #include <stdio.h>
 
-int main(void)
+int main()
 
 {
     int x, y;
@@ -27,4 +27,5 @@ int main(void)
         printf("Sum = %d\n", x + y);
     }
     return 0;
+
 }
