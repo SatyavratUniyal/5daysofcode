@@ -15,16 +15,18 @@ Fahrenheit=212
 */
 #include <stdio.h>
 
-int main(void)
+int main()
 
 {
     float c;
+    int f;
 
     printf("Celcius: ");
     scanf("%f", &c);
-    int f = (c * 9 / 5) + 32;
+     f = (c * 9 / 5) + 32;
     {
-        printf("Fahrenhieit=%i\n", f);
+        printf("Fahrenhieit=%d\n", f);
     }
     return 0;
+
 }
