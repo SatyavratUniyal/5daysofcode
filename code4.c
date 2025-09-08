@@ -16,7 +16,7 @@ Area=28.27, Circumference=18.85
  #include <stdio.h>
 #define PI 3.14
 
-int main(void) {
+int main() {
     float radius, area, circumference;
 
     printf("Enter the radius of the circle: ");
@@ -30,3 +30,4 @@ int main(void) {
 
     return 0;
 }
+
